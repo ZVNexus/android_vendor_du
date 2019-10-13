@@ -189,4 +189,8 @@
     <!-- Colon separated list of package names that should be granted DND access -->
     <string name="config_defaultDndAccessPackages" translatable="false">com.google.android.gms:com.google.android.GoogleCamera:com.google.intelligence.sense:com.google.android.settings.intelligence</string>
 
+    <!-- Wallpaper cropper package. Used as the default cropper if the active launcher doesn't
+         handle wallpaper cropping. -->
+    <string name="config_wallpaperCropperPackage" translatable="false">com.google.android.apps.wallpaper</string>
+
 </resources>

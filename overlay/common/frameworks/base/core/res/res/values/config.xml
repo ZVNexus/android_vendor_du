@@ -116,9 +116,6 @@
         <item>com.google.android.apps.pixelmigrate</item>
     </string-array>
 
-    <!-- Colon separated list of package names that should be granted Notification Listener access -->
-    <string name="config_defaultListenerAccessPackages" translatable="false">com.google.android.apps.nexuslauncher:com.google.android.setupwizard:com.google.android.apps.pixelmigrate:com.google.android.as</string>
-
     <!-- Package name that should be granted Notification Assistant access -->
     <string name="config_defaultAssistantAccessPackage" translatable="false">com.google.android.ext.services</string>
 
@@ -192,5 +189,9 @@
     <!-- Wallpaper cropper package. Used as the default cropper if the active launcher doesn't
          handle wallpaper cropping. -->
     <string name="config_wallpaperCropperPackage" translatable="false">com.google.android.apps.wallpaper</string>
+
+    <string name="config_defaultListenerAccessPackages">com.google.android.apps.nexuslauncher:com.google.android.setupwizard:com.google.android.apps.pixelmigrate:com.google.android.as:com.google.android.projection.gearhead</string>
+    <string name="config_recentsComponentName">com.google.android.apps.nexuslauncher/com.android.quickstep.RecentsActivity</string>
+    <string name="config_secondaryHomeComponent">com.google.android.apps.nexuslauncher/com.android.launcher3.SecondaryDisplayLauncher</string>
 
 </resources>
